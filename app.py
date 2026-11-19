@@ -256,4 +256,4 @@ for aid, person in grouped.items():
         )
 
 st.divider()
-st.link_button("← Back to TWEVIX PULSE™ Home", "https://twevix.com")
+st.link_button("← Back to TWEVIX PULSE™ Home", " https://pulse.twevix.com/")
