@@ -157,7 +157,8 @@ for row in records:
     grouped[aid]["cycles"].append(row)
 st.markdown(
     f"""
-    <div style="display:flex;align-items:center;gap:16px;padding:8px 0 20px 0;">
+        <div style="display:flex;align-items:center;gap:16px;padding:0 0 12px 0;margin-bottom:28px;">
+
         <img src="data:image/png;base64,{logo_b64}" style="width:62px;height:62px;border-radius:50%;border:2px solid #fbbf24;object-fit:cover;" />
         <div>
             <div style="font-size:26px;font-weight:900;letter-spacing:-0.02em;line-height:1.1;color:#f8fafc;">
