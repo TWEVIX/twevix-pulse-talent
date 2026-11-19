@@ -3,9 +3,11 @@ import streamlit as st
 
 st.set_page_config(
     page_title="TWEVIX PULSE™ | Verified Analyst & Intern Directory",
-    page_icon=":material/person_search:",
+    page_icon="favicon.png",
     layout="wide",
 )
+st.logo("logo.png", link="https://twevix.com")
+
 
 st.markdown(
     """
